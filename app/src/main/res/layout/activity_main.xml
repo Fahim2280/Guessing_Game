@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+1
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BF0B48"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Guessing Game"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/EditTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#BF0B48"
+        android:gravity="center"
+        android:hint="Enter your guess here between 1-5"
+        android:minHeight="48dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/ButtonID"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Check" />
+
+    <TextView
+        android:id="@+id/TextViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>
